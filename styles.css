@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 /** container**/
@@ -83,8 +84,13 @@ hr{
     margin: auto;
 }
 
-.hero .hero-heading .heading-inverted{
+.hero .hero-heading {
+    text-align: center;
     padding-top: 1rem;
+    color : var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted{
     color : var(--primary-color);
 }
 
@@ -99,4 +105,22 @@ hr{
 
 .ow {
     background-color: var(--off-white);
+}
+
+/** Footers **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
